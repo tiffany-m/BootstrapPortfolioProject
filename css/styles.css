@@ -1,0 +1,72 @@
+body {
+  font-family: "Open Sans", sans-serif; 
+  background: url(/img/bg.jpg);
+  background-size: cover; }
+
+.covid, .carouselBody, .textBG {
+   background-color: rgba(255, 255, 255, 0.829);
+}
+h1{
+  font-size: 70px;
+}
+h1, h2, h3 {
+  font-family: "Lobster", cursive; }
+
+header h2 {
+  font-size: 20px;
+  color: #000000; }
+ 
+.site-footer {
+  background-image: linear-gradient(#82e7df, white);
+  padding: 15px;
+  position: absolute;
+  width: 100%; }
+
+.jumbotron {
+  margin: 0;
+  padding: 15px;
+  background-image: linear-gradient(to right,  #b189fa, #fa89d8, #f8c58b, #f4f682, #8afaa3, #82e7df, #82b6e7); 
+  color: black; }
+
+.row-content {
+  padding: 18px;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar {
+  background-color: #82e7df; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: #c0bebedc;
+  color: black;}
+
+.carousel {
+  border: solid #82e7df; }
+
+#carouselButton1, #carouselButton2 {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+/* Fix My Divs!!! 
+div,img{
+    border: dashed 1px gray;
+    padding:1px;
+}
+.container {
+    border: solid 1px green;
+    padding:1px;
+}
+.col{
+    border: solid 1px cyan;
+    padding:1px;
+}
+.row {
+    border: solid 1px red;
+    padding:1px;
+}*/
