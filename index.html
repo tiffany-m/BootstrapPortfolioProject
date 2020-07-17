@@ -22,11 +22,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/logo.png" class="img-fluid" width="150px">
+                    <img src="img/logo.png" class="img-fluid" width="125px">
                 </div>
                 <div class="col align-self-center">
                     <h1>Edible Delights</h1>
-                    <h2>Baking the Difference</h2> <!-- Making delicious memories with every cake.-->
+                    <h2>- Baking the Difference</h2>
                 </div>
             </div>
         </div>
@@ -43,11 +43,10 @@
             <div class="collapse navbar-collapse" id="bakeryNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-question-circle fa-lg"></i> About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-birthday-cake fa-lg"></i> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-shopping-cart fa-lg"></i> Order</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-gift fa-lg"></i> Gift Shop</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-question-circle fa-lg"></i> About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html"><i class="fa fa-birthday-cake fa-lg"></i> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html"><i class="fa fa-shopping-cart fa-lg"></i> Order</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -60,29 +59,47 @@
 <!--
     COVID
 -->
-        <div class="row align-items-center covid">
+        <div class="row align-items-center boxStyle">
             <div class="col">
                 <div class="media">
-                    <img class="d-flex m-3 img-thumbnail" src="img/COVID.jpg" width="150px" alt="COVID">
+                    <img class="d-flex m-3 img-thumbnail" src="img/COVID.jpg" width="125px" alt="COVID">
                     <div class="media-body align-self-center">
                         <h3>COVID - Following State Guidelines</h3>
                         <p class="d-none d-sm-block">We are following state guidelines for COVID-19 to ensure the safety of our employees and customers.
-                        <br><strong>Update:</strong>&nbsp July 3, 2020 - We are open!  For now we will be closed on Mondays.  Otherwise business as usual :)
+                            <br><strong>Update:</strong>&nbsp July 3, 2020 - We are open!  Currently closed on Mondays.  Otherwise business as usual :)
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+ <!--
+    How We Roll
+-->
+        <br>
+        <div class="row row-content align-items-center boxStyle">
+            <div class="col-sm-3">
+                <img class="img-thumbnail" src="img/howWeRoll1.jpg" width="250" alt="Baked Cakes">
+            </div>
+            <div class="col-sm">
+                <h3>How we roll...</h3>
+                <div>We sell a variety of small treats (donuts, cupcakes, cookies and seaonal items) for daily pickup. 
+                    Please see our <a href="menu.html">Menu</a> for our product selection.  Large quantities and custom cakes must be ordered ahead of time.  Please see our <a href="order.html">Order Page</a> for details.
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <img class="img-thumbnail" src="img/howWeRoll2.jpg" width="250" alt="Icing Bags">
             </div>
         </div>
 <!--
     Two Carousels
 -->
         <br>
-        <div class="row row-content carouselBody">
+        <div class="row row-content boxStyle">
 <!--
     Made Daily - Carousel
 -->
-            <div class="col-md-6 mx-auto">
-                <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div class="col-sm-6 mx-auto mb-1">
+                <div id="carousel1" class="carousel slide boxStyle" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel1" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel1" data-slide-to="1"></li>
@@ -90,21 +107,21 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/cupcakes.jpg" alt="test">
+                            <img class="d-block w-100" src="img/cupcakes.jpg" alt="Cupcakes">
                             <div class="carousel-caption">
                                 <h3>Daily Treats</h3>
                                 <p class="d-none d-sm-block"><strong>Cupcakes:</strong>&nbsp $3 each or $30/dozen</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/donuts.jpg" alt="test">
+                            <img class="d-block w-100" src="img/donuts.jpg" alt="Donuts">
                             <div class="carousel-caption">
                                 <h3>Daily Treats</h3>
                                 <p class="d-none d-sm-block"><strong>Donuts:</strong>&nbsp $1.25 each or $12/dozen</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/cookies.jpg" alt="test">
+                            <img class="d-block w-100" src="img/cookies.jpg" alt="Cookies">
                             <div class="carousel-caption">
                                 <h3>Daily Treats</h3>
                                 <p class="d-none d-sm-block"><strong>Cookies:</strong>&nbsp $16 per pound </p>
@@ -129,8 +146,8 @@
 <!--
     Recent Orders - Carousel
 -->
-            <div class="col-md-6 mx-auto">
-                <div id="carousel2" class="carousel slide" data-ride="carousel">
+            <div class="col-sm mx-auto">
+                <div id="carousel2" class="carousel slide boxStyle" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel2" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel2" data-slide-to="1"></li>
@@ -138,21 +155,21 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/recent1.jpg" alt="test">
+                            <img class="d-block w-100" src="img/recent1.jpg" alt="Autumn Cake">
                             <div class="carousel-caption">
                                 <h3>Recent Orders</h3>
                                 <p class="d-none d-sm-block">Autumn</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/recent2.jpg" alt="test">
+                            <img class="d-block w-100" src="img/recent2.jpg" alt="Frame">
                             <div class="carousel-caption">
                                 <h3>Recent Orders</h3>
                                 <p class="d-none d-sm-block">Inspired by picture frame.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/recent3.jpg" alt="test">
+                            <img class="d-block w-100" src="img/recent3.jpg" alt="Little Red Riding Hood">
                             <div class="carousel-caption">
                                 <h3>Recent Orders</h3>
                                 <p class="d-none d-sm-block">Little Red Riding Hood</p>
@@ -184,23 +201,6 @@
                     <button class="btn btn-info btn-sm" id="carouselButton2">
                         <i class="fa fa-pause"></i>
                     </button>
-                </div>
-            </div>
-        </div>
-        <button type="button" id="testButton" class="btn btn-primary">Test</button>
-<!--
-    How We Roll
--->
-        <br>
-        <div class="row align-items-center textBG">
-            <div class="col">
-                <div class="media">
-                    <img class="d-flex m-3 img-thumbnail" src="img/howWeRoll1.jpg" width="250" alt="test">
-                    <div class="media-body align-self-center">
-                        <h3>How we roll...</h3>
-                        <p class="d-none d-sm-block">We currently sell a variety of small treats (donuts, cupcakes, cookies and special seaonal items) for daily pickup.  Large quantities and custom cakes must be ordered ahead of time.  Please see our <a href="#">Menu</a> for our specific offerings and our <a href="#">Order Page</a> for information on orders for large quantities and custome cakes.</p>
-                    </div>
-                    <span class="d-none d-sm-block"><img class="d-flex m-3 img-thumbnail" src="img/howWeRoll2.jpg" width="250" alt="test"></span>
                 </div>
             </div>
         </div>

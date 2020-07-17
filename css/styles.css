@@ -3,9 +3,20 @@ body {
   background: url(/img/bg.jpg);
   background-size: cover; }
 
-.covid, .carouselBody, .textBG {
+.boxStyle {
    background-color: rgba(255, 255, 255, 0.829);
+   border: solid #82e7df;}
+
+hr {
+  border: 2px solid #82e7df;;
 }
+
+.imgBorder {
+  border-bottom: 2px solid #000000;}
+
+.accordionHeader {
+  background-color: #8afaa28e;}
+
 h1{
   font-size: 70px;
 }
@@ -30,30 +41,27 @@ header h2 {
 
 .row-content {
   padding: 18px;
-  border-bottom: 1px ridge;
   min-height: 200px; }
 
 .navbar {
   background-color: #82e7df; }
 
-.tab-content {
-  border: 1px solid #DDD;
-  border-top: none;
-  padding: 10px; }
-
 .carousel-caption {
   background-color: #c0bebedc;
-  color: black;}
-
-.carousel {
-  border: solid #82e7df; }
+  color: black;
+  border: solid #000000;
+  border-width: thin;}
 
 #carouselButton1, #carouselButton2 {
   position: absolute;
   right: 0;
   bottom: 0; }
+  
 
-/* Fix My Divs!!! 
+  /*.col-sm-3 { border: solid 4px red;}*/
+
+
+/*Fix My Divs!!! 
 div,img{
     border: dashed 1px gray;
     padding:1px;
@@ -69,4 +77,5 @@ div,img{
 .row {
     border: solid 1px red;
     padding:1px;
-}*/
+} */
+
