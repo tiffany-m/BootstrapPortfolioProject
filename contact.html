@@ -21,8 +21,8 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="index.html"><img src="img/logo.png" class="img-fluid" width="125px"></a>
+                <div class="d-none d-sm-block col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo.png" class="img-fluid" width="125px">
                 </div>
                 <div class="col align-self-center">
                     <h1>Edible Delights</h1>
@@ -59,17 +59,15 @@
     Contact Us
 -->
         <br>
-        <div class="boxStyle">
-        <div class="row">
+        <div class="row boxStyle border-bottom-0">
             <div class="col">
-                <h2 class="text-center">Contact Us</h2><hr>
+                <h2 class="text-center pt-3">Contact Us</h2><hr>
             </div>
         </div>
-
-        <div class="row row-content align-items-center">
+        <div class="row px-4 border-top-0 boxStyle">
             <br><br>
             <div class="col-sm-3">
-                <h5><strong>Our Address</strong></h5>
+                <h4><strong>Our Address</strong></h4>
                 <address>
                     123 Candywood Lane<br>
                     Sweetall, PA 19008<br>
@@ -77,27 +75,27 @@
                 </address>
             </div>
             <div class="col-sm">
-                <h5><strong>We do our best to respond in 24 hours.</strong></h5>
-				<a role="button" class="btn btn-link" href="tel:+8675309"><i class="fa fa-phone"></i> 867-5309</a><br>
-            	<a role="button" class="btn btn-link" href="mailto:info@edibledelights.com"><i class="fa fa-envelope-o"></i> info@edibledelights.com</a>
+                <h4><strong>We do our best to respond in 24 hours.</strong></h4>
+                <a role="button" class="btn btn-link" href="tel:+8675309"><i class="fa fa-phone"></i> 867-5309</a><br>
+                <a role="button" class="btn btn-link" href="mailto:info@edibledelights.com"><i class="fa fa-envelope-o"></i> info@edibledelights.com</a>
             </div>
-            <div class="col-sm-3">
-                <h5><strong>Bakery Hours</strong></h5>
-                <address>
-                    <strong>Sunday:</strong> 8am - 2pm
-                    <br><strong>Monday:</strong> closed
-                    <br><strong>Tuesday - Friday:</strong> 7:30am - 6pm
-                    <br><strong>Satday:</strong> 8am - 3pm
-                </address>
+            <div class="col-sm-3 mt-2 m-sm-auto">
+                <h4><strong>Bakery Hours</strong></h4>
+                <p>
+                    <strong>Sun:</strong> 8am - 2pm
+                    <br><strong>Mon:</strong> closed
+                    <br><strong>Tues - Fri:</strong> 7:30am - 6pm
+                    <br><strong>Sat:</strong> 8am - 3pm
+                </p>
             </div>
         </div>
-        </div>
+       
 <!--
     Map
 -->
         <br>
         <div class="col d-flex justify-content-center">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12231.083241592713!2d-75.36253930909427!3d39.968876615788254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6ea63b26c5429%3A0xb2ea7a5c8d00aa83!2sBroomall%2C%20PA%2019008!5e0!3m2!1sen!2sus!4v1594585163259!5m2!1sen!2sus" width="600" height="350" frameborder="1" style="border: solid #82e7df" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12231.083241592713!2d-75.36253930909427!3d39.968876615788254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6ea63b26c5429%3A0xb2ea7a5c8d00aa83!2sBroomall%2C%20PA%2019008!5e0!3m2!1sen!2sus!4v1594585163259!5m2!1sen!2sus" width="1070" height="300" frameborder="1" style="border: solid #82e7df" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
 <!--
     Feedback
@@ -105,8 +103,8 @@
         <br>
         <div class="row row-content boxStyle">
             <div class="col-md-10">
-                <h2>Send us your Feedback &nbsp :)</h2>
-                <p><strong>All</strong> feedback is appreciated - we are always trying to improve our service.</p>
+                <h2>Send us your Feedback</h2>
+                <p><strong>All</strong> feedback is appreciated - we are always trying to improve our service &nbsp <strong>:)</strong></p>
                 <form>
                     <div class="form-group row">
                         <label for="fullName" class="col-md-2 col-form-label"><strong>Full Name</strong></label>
@@ -127,12 +125,12 @@
                     <div class="form-group row">
                         <label for="feedback" class="col-md-2 col-form-label"><strong>Your Feedback</strong></label>
                         <div class="col-md-10">
-                            <textarea class="form-control" id="feedback" name="feedback" rows="4" placeholder="Comments Here"></textarea>
+                            <textarea class="form-control" id="feedback" name="feedback" rows="4" placeholder="Comments Here Please &nbsp :)"></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                            <button type="submit" class="btn btn-info">Send Feedback</button>
                         </div>
                     </div>
                 </form>
@@ -146,7 +144,16 @@
 <footer class="site-footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 text-center">
+            <div class="col-sm text-center">
+                <h5><strong>Bakery Hours</strong></h5>
+                <p>
+                    <strong>Sun:</strong> 8am - 2pm
+                    <br><strong>Mon:</strong> closed
+                    <br><strong>Tues - Fri:</strong> 7:30am - 6pm
+                    <br><strong>Sat:</strong> 8am - 3pm
+                </p>
+            </div>
+            <div class="col-sm mb-3 text-center">
                 <h5><strong>Social</strong></h5>
                 <a class="btn btn-social-icon btn-flickr" href="http://flickr.com/"><i class="fa fa-flickr"></i></a>
                 <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
@@ -154,7 +161,8 @@
                 <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
                 <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
             </div>
-            <div class="col text-center">
+            <div class="col-sm text-center">
+                <h5><strong>Contact</strong></h5>
                 <a role="button" class="btn btn-link" href="tel:+8675309"><i class="fa fa-phone"></i> 867-5309</a><br>
                 <a role="button" class="btn btn-link" href="mailto:info@edibledelights.com"><i class="fa fa-envelope"></i> info@edibledelights.com</a>
             </div>

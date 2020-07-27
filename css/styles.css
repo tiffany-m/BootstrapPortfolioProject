@@ -43,6 +43,9 @@ header h2 {
   padding: 18px;
   min-height: 200px; }
 
+  .COVID-row-content {
+    padding: 18px; }
+
 .navbar {
   background-color: #82e7df; }
 
@@ -70,8 +73,8 @@ div,img{
     border: solid 1px green;
     padding:1px;
 }
-.col{
-    border: solid 1px cyan;
+.col, .col-md-2, .col-md-3, .col-md-4{
+    border: solid 1px rgb(4, 0, 255);
     padding:1px;
 }
 .row {

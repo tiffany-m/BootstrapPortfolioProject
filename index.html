@@ -21,7 +21,7 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                <div class="d-none d-sm-block col-sm-3 col-md-2 align-self-center">
                     <img src="img/logo.png" class="img-fluid" width="125px">
                 </div>
                 <div class="col align-self-center">
@@ -59,17 +59,15 @@
 <!--
     COVID
 -->
-        <div class="row align-items-center boxStyle">
-            <div class="col">
-                <div class="media">
-                    <img class="d-flex m-3 img-thumbnail" src="img/COVID.jpg" width="125px" alt="COVID">
-                    <div class="media-body align-self-center">
-                        <h3>COVID - Following State Guidelines</h3>
-                        <p class="d-none d-sm-block">We are following state guidelines for COVID-19 to ensure the safety of our employees and customers.
-                            <br><strong>Update:</strong>&nbsp July 3, 2020 - We are open!  Currently closed on Mondays.  Otherwise business as usual :)
-                        </p>
-                    </div>
-                </div>
+        <div class="row COVID-row-content align-items-center boxStyle">
+            <div class="mb-3 mb-sm-auto col-sm-2">
+                <img class="img-thumbnail" src="img/COVID.jpg" width="175" alt="COVID Responce">
+            </div>
+            <div class="col-sm">
+                <h5><strong>COVID - Following State Guidelines</strong></h5>
+                <p class="d-none d-sm-block">We are following state guidelines for COVID-19 to ensure the safety of our employees and customers.
+                    <br><strong>Update:</strong>&nbsp July 3, 2020 - We are open!  Currently closed on Mondays.  Otherwise business as usual :)
+                </p>
             </div>
         </div>
  <!--
@@ -77,7 +75,7 @@
 -->
         <br>
         <div class="row row-content align-items-center boxStyle">
-            <div class="col-sm-3">
+            <div class="col-sm-3 mb-3 m-sm-auto">
                 <img class="img-thumbnail" src="img/howWeRoll1.jpg" width="250" alt="Baked Cakes">
             </div>
             <div class="col-sm">
@@ -86,7 +84,7 @@
                     Please see our <a href="menu.html">Menu</a> for our product selection.  Large quantities and custom cakes must be ordered ahead of time.  Please see our <a href="order.html">Order Page</a> for details.
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 mt-3 m-sm-auto">
                 <img class="img-thumbnail" src="img/howWeRoll2.jpg" width="250" alt="Icing Bags">
             </div>
         </div>
@@ -95,10 +93,8 @@
 -->
         <br>
         <div class="row row-content boxStyle">
-<!--
-    Made Daily - Carousel
--->
-            <div class="col-sm-6 mx-auto mb-1">
+<!-- Made Daily - Carousel -->
+            <div class="col-sm-6 mb-3 m-sm-auto">
                 <div id="carousel1" class="carousel slide boxStyle" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel1" data-slide-to="0" class="active"></li>
@@ -128,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="carousel1" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                         <span class="sr-only">Previous</span>
                     </a>
@@ -141,12 +137,8 @@
                     </button>
                 </div>
             </div>
-
-
-<!--
-    Recent Orders - Carousel
--->
-            <div class="col-sm mx-auto">
+<!-- Recent Orders - Carousel -->
+            <div class="col-sm">
                 <div id="carousel2" class="carousel slide boxStyle" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel2" data-slide-to="0" class="active"></li>
@@ -211,25 +203,35 @@
 <!--
     Footer
 -->
-    <br>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 text-center">
-                    <h5><strong>Social</strong></h5>
-                    <a class="btn btn-social-icon btn-flickr" href="http://flickr.com/"><i class="fa fa-flickr"></i></a>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-                </div>
-                <div class="col text-center">
-                    <a role="button" class="btn btn-link" href="tel:+8675309"><i class="fa fa-phone"></i> 867-5309</a><br>
-                    <a role="button" class="btn btn-link" href="mailto:info@edibledelights.com"><i class="fa fa-envelope"></i> info@edibledelights.com</a>
-                </div>
+<br>
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm text-center">
+                <h5><strong>Bakery Hours</strong></h5>
+                <p>
+                    <strong>Sun:</strong> 8am - 2pm
+                    <br><strong>Mon:</strong> closed
+                    <br><strong>Tues - Fri:</strong> 7:30am - 6pm
+                    <br><strong>Sat:</strong> 8am - 3pm
+                </p>
+            </div>
+            <div class="col-sm mb-3 text-center">
+                <h5><strong>Social</strong></h5>
+                <a class="btn btn-social-icon btn-flickr" href="http://flickr.com/"><i class="fa fa-flickr"></i></a>
+                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="col-sm text-center">
+                <h5><strong>Contact</strong></h5>
+                <a role="button" class="btn btn-link" href="tel:+8675309"><i class="fa fa-phone"></i> 867-5309</a><br>
+                <a role="button" class="btn btn-link" href="mailto:info@edibledelights.com"><i class="fa fa-envelope"></i> info@edibledelights.com</a>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
 
     <!-- build:js js/main.js -->

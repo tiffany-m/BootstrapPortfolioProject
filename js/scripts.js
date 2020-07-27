@@ -1,12 +1,12 @@
 $(function() {
-    $(".carousel").carousel( { interval: 5000 } );
+    $("#carousel1").carousel( { interval: 2000 } );
     $("#carouselButton1").click(function(){
         if ($("#carouselButton1").children("i").hasClass("fa-pause")) {
-            $(".carousel").carousel("pause");
+            $("#carousel1").carousel("pause");
             $("#carouselButton1").children("i").removeClass("fa-pause");
-            $("#carouselButton").children("i").addClass("fa-play");
+            $("#carouselButton1").children("i").addClass("fa-play");
         } else {
-            $(".carousel").carousel("cycle");
+            $("#carousel1").carousel("cycle");
             $("#carouselButto1").children("i").removeClass("fa-play");
             $("#carouselButton1").children("i").addClass("fa-pause"); 
         }
@@ -14,14 +14,14 @@ $(function() {
 });
 
 $(function() {
-    $(".carousel").carousel( { interval: 5000 } );
+    $("#carousel2").carousel( { interval: 2000 } );
     $("#carouselButton2").click(function(){
         if ($("#carouselButton2").children("i").hasClass("fa-pause")) {
-            $(".carousel").carousel("pause");
+            $("#carousel2").carousel("pause");
             $("#carouselButton2").children("i").removeClass("fa-pause");
             $("#carouselButton2").children("i").addClass("fa-play");
         } else {
-            $(".carousel").carousel("cycle");
+            $("#carousel2").carousel("cycle");
             $("#carouselButton2").children("i").removeClass("fa-play");
             $("#carouselButton2").children("i").addClass("fa-pause"); 
         }
